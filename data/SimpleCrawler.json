@@ -1,0 +1,322 @@
+[
+  {
+    "url": "https://docs.aws.amazon.com",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/ec2/?icmpid=docs_homepage_featuredsvcs",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/s3/?icmpid=docs_homepage_featuredsvcs",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/dynamodb/?icmpid=docs_homepage_featuredsvcs",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/rds/?icmpid=docs_homepage_featuredsvcs",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/lambda/?icmpid=docs_homepage_featuredsvcs",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/vpc/?icmpid=docs_homepage_featuredsvcs",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html?icmpid=docs_homepage_featuredsvcs",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/pdfs/decision-guides/latest/generative-ai-on-aws-how-to-choose/generative-ai-on-aws-how-to-choose.pdf#guide",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc2=h_lg",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc2=h_lg",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc2=h_lg",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/?nc=nav-l1&amp;trk=0e487c8f-c3e3-4b03-9550-a51ebdba56b6",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/documentation-overview/?nc2=h_ql_doc_do",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/marketplace/?nc2=h_ql_mp",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ar/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/id/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/de/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/es/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/fr/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/it/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/pt/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/vi/?nc1=f_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/tr/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ru/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/th/?nc1=f_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/jp/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ko/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/cn/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/tw/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/?nc2=h_m_mc",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/billing/home#/account?nc2=h_m_ma",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/billing/home?nc2=h_m_bc",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/iam/home?nc2=h_m_sc#security_credential",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://phd.aws.amazon.com/?nc2=h_m_sc",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/support/home/?nc2=h_ql_cu",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://iq.aws.amazon.com/?utm=mkt.nav",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc2=h_lg",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/?nc=nav-m&amp;trk=0e487c8f-c3e3-4b03-9550-a51ebdba56b6",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/documentation-overview/?nc2=h_mo",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/marketplace/?nc2=h_mo",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/support/home?nc2=h_ql_cu",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/console/home",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/?hp=bl",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/security/?nc1=f_cc",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://press.aboutamazon.com/press-releases/aws",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://iq.aws.amazon.com/?utm=mkt.foot/?nc1=f_m",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://console.aws.amazon.com/support/home/?nc1=f_dr",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ar/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/id/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/de/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/es/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/fr/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/it/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/pt/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/vi/?nc1=f_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/tr/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ru/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/th/?nc1=f_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/jp/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/ko/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/cn/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/tw/?nc1=h_ls",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/privacy/?nc1=f_pr",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/accessibility/?nc1=f_acc",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://aws.amazon.com/terms/?nc1=f_pr",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com#",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/aws/heads-up-aws-support-for-internet-explorer-11-is-ending/",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/?nc=nav-l1&amp;trk=0e487c8f-c3e3-4b03-9550-a51ebdba56b6",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/on-demand/",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/sponsors/",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com#footer",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com#footer",
+    "category": "UserGuidePage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/on-demand/#keynotes",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/on-demand/#innovation-talks",
+    "category": "MainPage"
+  },
+  {
+    "url": "https://reinvent.awsevents.com/on-demand/#breakout-sessions",
+    "category": "MainPage"
+  }
+]

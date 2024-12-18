@@ -1,130 +1,144 @@
 package io.scalastic.aws
 
-import org.json.XML
-import sttp.client3.{HttpURLConnectionBackend, basicRequest}
-import sttp.model.Uri
-import ujson.Value
 
+import sttp.client3.{UriContext, basicRequest, HttpURLConnectionBackend}
+import sttp.model.Uri
+import java.io._
 import java.net.URLDecoder
 import java.nio.charset.Charset
-import scala.util.{Failure, Success, Try}
+import ujson._
+import org.json.XML
+import scala.util.Try
 
 trait Model {
 
   val sort: Option[String] = None
   val query: String = "http language:scala"
-  val xmlVariable = "window.awsdocs.landingPageXml"
+  val xmlVariable = "landing-page-xml"
 
-  trait Html {
+  // Fetch HTML content from URL
+  def fetchHtmlFromUrl(url: String): String = {
+    val request = basicRequest.get(uri"$url")
+    val backend = HttpURLConnectionBackend()
+    val response = request.send(backend)
 
-    val uri: Uri
+    val actualContentType = response.contentType.getOrElse("unknown")
+    val expectedContentType = "text/html"
 
-    val htmlContent: String = {
-      val request = basicRequest.get(uri)
-      val backend = HttpURLConnectionBackend()
-      val response = request.send(backend)
-      response.body.toString
-    }
-  }
+    println(s"Expected Content Type: $expectedContentType")
+    println(s"Actual Content Type: $actualContentType")
 
-  trait Xml extends Html {
-
-    val xmlContent: String = findXml()
-
-    def findXml(innerVariable: String = "window.awsdocs.landingPageXml"): String = {
-      val strPattern = innerVariable + " = '(.*?)'"
-      val pattern = strPattern.stripMargin.r
-      val encodedContent = pattern.findFirstIn(htmlContent)
-
-      URLDecoder.decode(encodedContent.getOrElse(""), Charset.defaultCharset())
-    }
-  }
-
-  trait Json extends Xml {
-
-    var jsonContent: ujson.Value = {
-      val cleanContent = xmlContent.toString.replaceAll("\n", "")
-      try {
-        ujson.read(XML.toJSONObject(cleanContent).toString)
-      } catch {
-        case ignore: NumberFormatException => ujson.read("{\"EMPTY\":\"EMPTY\"}")
+    if (actualContentType.startsWith(expectedContentType)) {
+      response.body match {
+        case Right(content) =>
+          if (content.startsWith("<!doctype html>") || content.startsWith("<html")) {
+            content
+          } else {
+            throw new Exception(s"Unexpected content type for $url: $content")
+          }
+        case Left(error) => throw new Exception(s"Error fetching HTML for $url: $error")
       }
+    } else {
+      throw new Exception(s"Unsupported content type for $url: $actualContentType")
     }
+  }
+
+  // Extract meta tags from HTML content
+  def extractMetaTags(htmlContent: String): Map[String, String] = {
+    val metaTagPattern = """<meta\s+name=["']([^"']+)["']\s+content=["']([^"']+)["']\s*/?>""".r
+    metaTagPattern.findAllMatchIn(htmlContent).map { m =>
+      (m.group(1), m.group(2))
+    }.toMap
+  }
+
+  // Convert meta tags to JSON
+  def convertMetaTagsToJson(metaTags: Map[String, String]): ujson.Value = {
+    val jsonObj = ujson.Obj()
+    metaTags.foreach { case (key, value) =>
+      jsonObj(key) = ujson.Str(value)
+    }
+    jsonObj
   }
 
   trait Page {
-    val category: String
-
-    def extractField(jsonData: ujson.Value, fieldsList: List[String]): ujson.Value = {
-      if (fieldsList.isEmpty) return jsonData
-      Try {
-        jsonData(fieldsList.head)
-      } match {
-        case Success(s) => return extractField(s, fieldsList.tail)
-        case Failure(f) => return "Empty " + fieldsList.head
-      }
-    }
-
-    def filter: ujson.Value
-
+    val uri: Uri
     def extract: ujson.Value
-
-    protected def getCategory = category
   }
 
-  class MainPage(val uri: Uri) extends Page with Json with Utils {
-    override val category = "main"
-
-    override def extract: Value = ujson.Obj(
-      "title" -> extractField(filter, List("title")),
-      "subtitle" -> extractField(filter, List("service-categories", "title")),
-      "abstract" -> extractField(filter, List("abstract")),
-      "panels" -> extractField(filter, List("service-categories", "tiles", "tile"))
-    )
-
-    override def filter: Value = jsonContent("main-landing-page")
+  class WebPage(val uri: Uri) extends Page {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "WebPage")
   }
 
-  class SubPage(val uri: Uri) extends Page with Json with Utils {
-    override val category = "sub"
-
-    override def extract: Value = ujson.Obj(
-      "title" -> extractField(filter, List("title")),
-      "short-title" -> extractField(filter, List("titleabbrev")),
-      "abstract" -> extractField(filter, List("abstract")),
-      "sections" -> extractField(filter, List("main-area", "sections", "section"))
-    )
-
-    override def filter: Value = jsonContent("landing-page")
+  class MainPage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "MainPage")
   }
 
-  class ResourcePage(val uri: Uri) extends Page with Json {
-    override val category = "resource"
-
-    override def filter: Value = jsonContent("main-landing-page")
-
-    override def extract: Value = ???
+  class SubPage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "SubPage")
   }
 
-  class UnknownPage(val uri: Uri) extends Page with Json {
-    override val category = "unknown"
+  class UserGuidePage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "UserGuidePage")
+  }
 
-    override def filter: Value = ujson.read("{\"empty\":\"empty\"}")
+  class DevGuidePage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "DevGuidePage")
+  }
 
-    override def extract: Value = ujson.Obj()
+  class InstanceTypePage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "InstanceTypePage")
+  }
+
+  class UnknownPage(uri: Uri) extends WebPage(uri) {
+    override def extract: ujson.Value = ujson.Obj("pageType" -> "UnknownPage")
   }
 
   object PageFactory {
+    def build(uri: Uri): WebPage = {
+      val htmlContent = fetchHtmlFromUrl(uri.toString)
+      val metaTags = extractMetaTags(htmlContent)
+      println(s"Extracted Meta Tags: $metaTags")
+      val jsonContent = convertMetaTagsToJson(metaTags)
 
-    def build(uri: Uri): Page = {
-      TestPage(uri) match {
-        case c if c.jsonContent.toString().startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri)
-        case c if c.jsonContent.toString.startsWith("{\"landing-page\"") => new SubPage(uri)
-        case c if c.jsonContent.toString.startsWith("{\"main-landing-page\"") => new ResourcePage(uri)
-        case c => new UnknownPage(uri)
-      }
+      identifyPageType(jsonContent, uri, htmlContent)
     }
 
-    case class TestPage(uri: Uri) extends Json
+    def identifyPageType(jsonContent: ujson.Value, uri: Uri, htmlContent: String): WebPage = {
+      val metaTags = jsonContent.obj
+      val metaServiceName = metaTags.getOrElse("service-name", ujson.Str("")).str
+      val metaGuideName = metaTags.getOrElse("guide-name", ujson.Str("")).str
+      val metaGuide = metaTags.getOrElse("guide", ujson.Str("")).str
+      val metaTargetState = metaTags.getOrElse("target_state", ujson.Str("")).str
+
+      println(s"metaTags for URI $uri: $metaTags")
+      println(s"metaServiceName: $metaServiceName")
+      println(s"metaGuideName: $metaGuideName")
+      println(s"metaGuide: $metaGuide")
+      println(s"metaTargetState: $metaTargetState")
+
+      // Enhanced identification logic
+      if (metaServiceName.contains("Main Landing Page") && metaGuideName.contains("Landing Page")) {
+        println(s"Identified as MainPage for URI: $uri")
+        new MainPage(uri)
+      } else if (metaServiceName.contains("Documentation") && metaGuideName.contains("Landing Page")) {
+        println(s"Identified as SubPage for URI: $uri")
+        new SubPage(uri)
+      } else if (metaGuide.contains("User Guide")) {
+        println(s"Identified as UserGuidePage for URI: $uri")
+        new UserGuidePage(uri)
+      } else if (metaGuide.contains("Developer Guide")) {
+        println(s"Identified as DevGuidePage for URI: $uri")
+        new DevGuidePage(uri)
+      } else if (metaTargetState.contains("instance-types")) {
+        println(s"Identified as InstanceTypePage for URI: $uri")
+        new InstanceTypePage(uri)
+      } else if (htmlContent.contains("Amazon Comprehend")) { // Additional logic for fallback
+        println(s"Identified as WebPage for URI: $uri based on content")
+        new WebPage(uri)
+      } else {
+        println(s"Identified as UnknownPage for URI: $uri")
+        new UnknownPage(uri)
+      }
+    }
   }
 }

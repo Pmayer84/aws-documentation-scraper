@@ -18,22 +18,21 @@ trait Serializer {
   }
 
   def serialize(name: String, objet: Any): Unit = {
+    println(s"Serializing object: ${ujson.write(objet.asInstanceOf[ujson.Value], 2)}")
     val oos = new ObjectOutputStream(new FileOutputStream(documentationPath + name + ".ser"))
     oos.writeObject(objet)
-    oos.close
+    oos.close()
     println("Serialize " + objet.getClass + " to file " + name + ".ser")
   }
-
 }
 
 class ObjectInputStreamWithCustomClassLoader(
-                                              fileInputStream: FileInputStream
-                                            ) extends ObjectInputStream(fileInputStream) {
+  fileInputStream: FileInputStream
+) extends ObjectInputStream(fileInputStream) {
   override def resolveClass(desc: java.io.ObjectStreamClass): Class[_] = {
     try {
       Class.forName(desc.getName, false, getClass.getClassLoader)
-    }
-    catch {
+    } catch {
       case ex: ClassNotFoundException => super.resolveClass(desc)
     }
   }

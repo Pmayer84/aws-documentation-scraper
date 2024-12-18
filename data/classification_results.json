@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://docs.aws.amazon.com/",
+    "pageType": "MainPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/ec2/?icmpid=docs_homepage_featuredsvcs",
+    "pageType": "SubPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+    "pageType": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-managed-instances.html",
+    "pageType": "UserGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/augmented-ai/?icmpid=docs_homepage_ml",
+    "pageType": "UnknownPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html?icmpid=docs_a2i_lp",
+    "pageType": "DevGuidePage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-start-human-loop.html",
+    "pageType": "DevGuidePage"
+  },
+  {
+    "url": "https://aws.amazon.com/getting-started/guides/setup-environment/",
+    "pageType": "UnknownPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/machine-learning/",
+    "pageType": "UnknownPage"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+    "pageType": "DevGuidePage"
+  }
+]

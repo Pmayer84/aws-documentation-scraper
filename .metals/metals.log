@@ -1,0 +1,1503 @@
+2024.12.12 17:27:02 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper' for client Visual Studio Code 1.96.0.
+2024.12.12 17:27:04 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.12 17:27:10 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals3625223152035805616\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.12 17:27:10 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.2  (this may take some time)...
+2024.12.12 17:27:20 ERROR [info] [launcher] getting Scala 2.12.13 (for sbt)...
+2024.12.12 17:27:27 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2024.12.12 17:27:27 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/petermayer/.sbt/boot/scala-2.12.13/org.scala-sbt/sbt/1.5.2/run_2.12-1.5.2.jar)
+2024.12.12 17:27:27 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2024.12.12 17:27:27 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2024.12.12 17:27:28 INFO  [info] welcome to sbt 1.5.2 (Eclipse Adoptium Java 17.0.13)
+2024.12.12 17:27:30 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt ...
+2024.12.12 17:27:30 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.12 17:27:34 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt ...
+2024.12.12 17:27:34 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.12 17:27:40 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.12 17:27:40 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.12 17:27:40 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...
+2024.12.12 17:27:49 INFO  [info]   Compilation completed in 8.404s.
+2024.12.12 17:27:52 INFO  [info] done compiling
+2024.12.12 17:27:52 INFO  [success] Total time: 18 s, completed Dec 12, 2024, 5:27:52 PM
+2024.12.12 17:27:54 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.12 17:27:54 INFO  [info] set current project to aws-doc-scraper (in build file:/C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/)
+2024.12.12 17:28:00 INFO  [success] Generated .bloop\root-test.json
+2024.12.12 17:28:00 INFO  [success] Generated .bloop\root.json
+2024.12.12 17:28:00 INFO  [success] Total time: 6 s, completed Dec 12, 2024, 5:28:00 PM
+2024.12.12 17:28:00 INFO  time: ran 'sbt bloopInstall' in 50s
+2024.12.12 17:28:00 INFO  Attempting to connect to the build server...
+2024.12.12 17:28:00 INFO  Found a Bloop server running
+2024.12.12 17:28:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 17:28:05 INFO  Attempting to connect to the build server...
+2024.12.12 17:28:05 INFO  Found a Bloop server running
+2024.12.12 17:28:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 17:28:09 INFO  time: Connected to build server in 8.34s
+2024.12.12 17:28:09 INFO  Connected to Build server: Bloop v2.0.2
+2024.12.12 17:28:09 INFO  time: Imported build in 0.12s
+2024.12.12 17:28:09 INFO  running doctor check
+2024.12.12 17:28:09 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 17:28:09 WARN  2.12.13 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.12.12 17:28:13 WARN  2.13.5 is no longer supported in the current Metals versions, using the last known supported version 1.2.2
+2024.12.12 17:28:24 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.12 17:28:30 INFO  time: indexed workspace in 21s
+2024.12.12 17:28:40 INFO  Disconnecting from Bloop session...
+2024.12.12 17:28:40 INFO  Shut down connection with build server.
+2024.12.12 17:28:40 INFO  Shut down connection with build server.
+2024.12.12 17:28:40 INFO  Attempting to connect to the build server...
+2024.12.12 17:28:40 INFO  No running Bloop server found, starting one.
+2024.12.12 17:28:46 INFO  Starting compilation server
+2024.12.12 17:28:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 17:28:53 INFO  Attempting to connect to the build server...
+2024.12.12 17:28:53 INFO  Found a Bloop server running
+2024.12.12 17:28:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 17:28:54 INFO  time: Connected to build server in 13s
+2024.12.12 17:28:54 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.12 17:28:55 INFO  time: Imported build in 0.18s
+2024.12.12 17:28:55 INFO  running doctor check
+2024.12.12 17:28:55 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 17:28:57 INFO  time: indexed workspace in 2.42s
+2024.12.12 17:29:47 INFO  compiling root (5 scala sources)
+Dec 12, 2024 5:29:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Dec 12, 2024 5:29:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.12 17:29:47 INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.5. Compiling...
+2024.12.12 17:29:57 INFO  Compilation completed in 9.356s.
+2024.12.12 17:30:05 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.12 17:30:05 INFO  time: compiled root in 18s
+2024.12.12 17:34:51 INFO  compiling root (1 scala source)
+2024.12.12 17:34:53 INFO  time: compiled root in 1.09s
+2024.12.12 18:11:28 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.12 18:11:28 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...
+Dec 12, 2024 6:11:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+Dec 12, 2024 6:11:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+2024.12.12 18:11:36 INFO  time: code lens generation in 5.97s
+2024.12.12 18:11:42 INFO  Compilation completed in 13.288s.
+2024.12.12 18:11:47 INFO  time: compiled aws-documentation-scraper-build in 19s
+2024.12.12 18:12:13 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals3389208961617198609\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.12 18:12:20 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2024.12.12 18:12:20 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/petermayer/.sbt/boot/scala-2.12.13/org.scala-sbt/sbt/1.5.2/run_2.12-1.5.2.jar)
+2024.12.12 18:12:20 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2024.12.12 18:12:20 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2024.12.12 18:12:20 INFO  [info] welcome to sbt 1.5.2 (Eclipse Adoptium Java 17.0.13)
+2024.12.12 18:12:20 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt ...
+2024.12.12 18:12:22 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.12 18:12:23 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt ...
+2024.12.12 18:12:23 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.12 18:12:29 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.12 18:12:29 INFO  [success] Total time: 7 s, completed Dec 12, 2024, 6:12:30 PM
+2024.12.12 18:12:33 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.12 18:12:33 INFO  [info] set current project to aws-doc-scraper (in build file:/C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/)
+2024.12.12 18:12:34 INFO  [success] Generated .bloop\root.json
+2024.12.12 18:12:34 INFO  [success] Generated .bloop\root-test.json
+2024.12.12 18:12:34 INFO  [success] Total time: 1 s, completed Dec 12, 2024, 6:12:35 PM
+2024.12.12 18:12:35 INFO  time: ran 'sbt bloopInstall' in 21s
+2024.12.12 18:12:35 INFO  Disconnecting from Bloop session...
+2024.12.12 18:12:35 INFO  Shut down connection with build server.
+2024.12.12 18:12:35 INFO  Shut down connection with build server.
+2024.12.12 18:12:35 INFO  Attempting to connect to the build server...
+2024.12.12 18:12:35 INFO  Found a Bloop server running
+2024.12.12 18:12:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:12:35 INFO  Attempting to connect to the build server...
+2024.12.12 18:12:35 INFO  Found a Bloop server running
+2024.12.12 18:12:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:12:36 INFO  time: Connected to build server in 1.69s
+2024.12.12 18:12:36 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.12 18:12:36 INFO  running doctor check
+2024.12.12 18:12:36 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 18:12:42 INFO  time: indexed workspace in 5.33s
+2024.12.12 18:36:57 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals3038542937878925446\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.12 18:36:59 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.12 18:37:07 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.12 18:37:07 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.12 18:37:09 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.12 18:37:11 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.12 18:37:11 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.12 18:37:17 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.12 18:37:17 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.12 18:37:17 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+2024.12.12 18:37:21 INFO  time: compiled aws-documentation-scraper-build in 22s
+2024.12.12 18:37:31 INFO  [info]   Compilation completed in 13.492s.
+2024.12.12 18:37:33 INFO  [info] done compiling
+2024.12.12 18:37:33 INFO  [success] Total time: 22 s, completed Dec 12, 2024, 6:37:33 PM
+2024.12.12 18:37:35 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt:11: error: not found: value scalaTest
+2024.12.12 18:37:35 ERROR       scalaTest % Test,
+2024.12.12 18:37:35 ERROR       ^
+2024.12.12 18:37:35 ERROR sbt.compiler.EvalException: Type error in expression
+2024.12.12 18:37:35 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2024.12.12 18:37:35 INFO  [error] Use 'last' for the full log.
+2024.12.12 18:37:35 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2024.12.12 18:37:35 INFO  time: ran 'sbt bloopInstall' in 37s
+2024.12.12 18:37:35 INFO  Disconnecting from Bloop session...
+2024.12.12 18:37:35 INFO  Shut down connection with build server.
+2024.12.12 18:37:35 INFO  Shut down connection with build server.
+2024.12.12 18:37:35 INFO  Attempting to connect to the build server...
+2024.12.12 18:37:35 INFO  Found a Bloop server running
+2024.12.12 18:37:35 ERROR sbt command failed: C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals3038542937878925446\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.12.12 18:37:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:37:36 INFO  Attempting to connect to the build server...
+2024.12.12 18:37:36 INFO  Found a Bloop server running
+2024.12.12 18:37:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:37:37 INFO  time: Connected to build server in 1.81s
+2024.12.12 18:37:37 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.12 18:37:37 INFO  running doctor check
+2024.12.12 18:37:37 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 18:37:55 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:37:58 INFO  time: code lens generation in 2.67s
+2024.12.12 18:38:02 INFO  time: indexed workspace in 24s
+2024.12.12 18:38:02 WARN  no build target for: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt
+2024.12.12 18:39:21 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.12 18:39:23 INFO  time: compiled aws-documentation-scraper-build in 1.84s
+2024.12.12 18:40:09 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:09 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:10 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:56 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:56 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:57 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:57 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:57 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:58 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:57 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:40:58 WARN  no build target for: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt
+2024.12.12 18:40:58 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 18:41:00 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals88526469446248945\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.12 18:41:02 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.12 18:41:02 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.12 18:41:03 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.12 18:41:03 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.12 18:41:03 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.12 18:41:07 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.12 18:41:07 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.12 18:41:10 INFO  [info] done compiling
+2024.12.12 18:41:10 INFO  [success] Total time: 6 s, completed Dec 12, 2024, 6:41:11 PM
+2024.12.12 18:41:14 INFO  [info] loading settings for project root from build.sbt...
+2024.12.12 18:41:14 INFO  [info] set current project to aws-doc-scraper (in build file:/C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/)
+2024.12.12 18:41:18 INFO  [success] Generated .bloop\root-test.json
+2024.12.12 18:41:18 INFO  [success] Generated .bloop\root.json
+2024.12.12 18:41:18 INFO  [success] Total time: 3 s, completed Dec 12, 2024, 6:41:18 PM
+2024.12.12 18:41:18 INFO  time: ran 'sbt bloopInstall' in 18s
+2024.12.12 18:41:18 INFO  Disconnecting from Bloop session...
+2024.12.12 18:41:18 INFO  Shut down connection with build server.
+2024.12.12 18:41:18 INFO  Shut down connection with build server.
+2024.12.12 18:41:18 INFO  Attempting to connect to the build server...
+2024.12.12 18:41:18 INFO  Found a Bloop server running
+2024.12.12 18:41:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:41:21 INFO  Attempting to connect to the build server...
+2024.12.12 18:41:21 INFO  Found a Bloop server running
+2024.12.12 18:41:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 18:41:22 INFO  time: Connected to build server in 3.69s
+2024.12.12 18:41:22 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.12 18:41:22 INFO  running doctor check
+2024.12.12 18:41:22 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 18:41:22 WARN  2.13.6 is no longer supported in the current Metals versions, using the last known supported version 1.3.0
+2024.12.12 18:41:27 INFO  time: indexed workspace in 5.17s
+2024.12.12 18:41:29 INFO  time: code lens generation in 1.32s
+2024.12.12 18:41:36 INFO  compiling root (5 scala sources)
+2024.12.12 18:41:57 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.12 18:41:57 INFO  time: compiled root in 21s
+2024.12.12 18:49:46 INFO  compiling root (1 scala source)
+2024.12.12 18:49:49 INFO  time: compiled root in 2.5s
+2024.12.12 18:52:30 INFO  compiling root (1 scala source)
+2024.12.12 18:52:31 INFO  time: compiled root in 1.06s
+2024.12.12 18:54:29 INFO  compiling root (1 scala source)
+2024.12.12 18:54:29 INFO  time: compiled root in 0.51s
+2024.12.12 18:55:41 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:60:22: stale bloop error: value \\ is not a member of ujson.Value
+      val nextUrl = (jsonData \\ "nextPageUrl").headOption.map(_.str).getOrElse("")
+                     ^^^^^^^^^^^
+2024.12.12 18:55:43 INFO  compiling root (1 scala source)
+2024.12.12 18:55:44 INFO  time: compiled root in 1.59s
+2024.12.12 18:55:44 INFO  compiling root (2 scala sources)
+2024.12.12 18:55:44 INFO  time: compiled root in 0.33s
+2024.12.12 18:56:20 INFO  compiling root (1 scala source)
+2024.12.12 18:56:22 INFO  time: compiled root in 1.69s
+2024.12.12 18:56:22 INFO  compiling root (2 scala sources)
+2024.12.12 18:56:22 INFO  time: compiled root in 0.46s
+2024.12.12 18:56:22 INFO  compiling root (1 scala source)
+2024.12.12 18:56:23 INFO  time: compiled root in 0.81s
+2024.12.12 18:56:23 INFO  compiling root (2 scala sources)
+2024.12.12 18:56:23 INFO  time: compiled root in 0.26s
+Dec 12, 2024 6:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 501
+Dec 12, 2024 6:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 502
+Dec 12, 2024 6:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 503
+Dec 12, 2024 6:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 504
+Dec 12, 2024 6:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+2024.12.12 18:58:44 INFO  compiling root (1 scala source)
+2024.12.12 18:58:46 INFO  time: compiled root in 1.41s
+2024.12.12 18:58:46 INFO  compiling root (2 scala sources)
+2024.12.12 18:58:46 INFO  time: compiled root in 0.23s
+2024.12.12 18:59:18 INFO  time: compiled root in 31ms
+2024.12.12 19:04:17 INFO  compiling root (1 scala source)
+2024.12.12 19:04:18 INFO  time: compiled root in 1.23s
+Dec 12, 2024 7:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 801
+2024.12.12 19:08:05 INFO  compiling root (1 scala source)
+2024.12.12 19:08:08 INFO  time: compiled root in 2.39s
+Dec 12, 2024 7:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 903
+2024.12.12 19:18:03 INFO  compiling root (1 scala source)
+2024.12.12 19:18:03 INFO  time: compiled root in 0.39s
+2024.12.12 19:18:14 INFO  compiling root (2 scala sources)
+2024.12.12 19:18:14 INFO  time: compiled root in 0.24s
+2024.12.12 19:19:25 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals4052283359229275899\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.12 19:19:33 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.12 19:19:33 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.12 19:19:34 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.12 19:19:35 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.12 19:19:35 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.12 19:19:43 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.12 19:19:43 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.12 19:19:48 INFO  [info] done compiling
+2024.12.12 19:19:48 INFO  [success] Total time: 13 s, completed Dec 12, 2024, 7:19:49 PM
+2024.12.12 19:19:52 INFO  [info] loading settings for project root from build.sbt...
+2024.12.12 19:19:52 ERROR java.lang.NoClassDefFoundError: Dependencies$
+2024.12.12 19:19:52 ERROR 	at $cf66253e5b86c87421a7$.$anonfun$root$3(build.sbt:14)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings.$anonfun$constant$1(INode.scala:212)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings$MixedNode.evaluate0(INode.scala:229)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings$INode.evaluate(INode.scala:171)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings.$anonfun$submitEvaluate$1(INode.scala:88)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings.sbt$internal$util$EvaluateSettings$$run0(INode.scala:100)
+2024.12.12 19:19:52 ERROR 	at sbt.internal.util.EvaluateSettings$$anon$3.run(INode.scala:95)
+2024.12.12 19:19:52 ERROR 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2024.12.12 19:19:52 ERROR 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2024.12.12 19:19:52 ERROR 	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.12.12 19:19:52 ERROR Caused by: java.lang.ClassNotFoundException: Dependencies$
+2024.12.12 19:19:52 ERROR 	at scala.reflect.internal.util.AbstractFileClassLoader.findClass(AbstractFileClassLoader.scala:72)
+2024.12.12 19:19:52 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+2024.12.12 19:19:52 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+2024.12.12 19:19:52 ERROR 	... 10 more
+2024.12.12 19:19:52 INFO  [error] java.lang.NoClassDefFoundError: Dependencies$
+2024.12.12 19:19:52 INFO  [error] Use 'last' for the full log.
+2024.12.12 19:19:52 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2024.12.12 19:19:52 INFO  time: ran 'sbt bloopInstall' in 27s
+2024.12.12 19:19:52 ERROR sbt command failed: C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals4052283359229275899\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.12.12 19:19:52 INFO  Disconnecting from Bloop session...
+2024.12.12 19:19:52 INFO  Shut down connection with build server.
+2024.12.12 19:19:52 INFO  Shut down connection with build server.
+2024.12.12 19:19:52 INFO  Attempting to connect to the build server...
+2024.12.12 19:19:52 INFO  Found a Bloop server running
+2024.12.12 19:19:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 19:19:54 INFO  Attempting to connect to the build server...
+2024.12.12 19:19:54 INFO  Found a Bloop server running
+2024.12.12 19:19:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.12 19:19:54 INFO  time: Connected to build server in 2.1s
+2024.12.12 19:19:54 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.12 19:19:54 INFO  running doctor check
+2024.12.12 19:19:54 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.12 19:20:00 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 19:20:12 INFO  time: indexed workspace in 17s
+2024.12.12 19:20:12 WARN  no build target for: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt
+2024.12.12 19:20:45 INFO  compiling root (2 scala sources)
+2024.12.12 19:20:45 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 19:20:45 INFO  time: compiled root in 0.35s
+2024.12.12 19:20:45 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.12 19:20:46 INFO  compiling root (2 scala sources)
+2024.12.12 19:20:46 INFO  time: compiled root in 0.37s
+2024.12.12 19:20:48 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:20:17: stale bloop error: not found: value extractDocumentation
+      val doc = extractDocumentation(entrypointDocumentationUrl)
+                ^^^^^^^^^^^^^^^^^^^^
+2024.12.12 19:20:49 INFO  compiling root (2 scala sources)
+2024.12.12 19:20:49 INFO  time: compiled root in 0.26s
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:4:8: stale bloop error: object jsoup is not a member of package org
+did you mean json?
+import org.jsoup.Jsoup
+       ^^^^^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:5:8: stale bloop error: object jsoup is not a member of package org
+did you mean json?
+import org.jsoup.nodes.Document
+       ^^^^^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:6:8: stale bloop error: object jsoup is not a member of package org
+did you mean json?
+import org.jsoup.select.Elements
+       ^^^^^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:48:18: stale bloop error: not found: type Document
+        val doc: Document = Jsoup.parse(htmlContent)
+                 ^^^^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:48:29: stale bloop error: not found: value Jsoup
+        val doc: Document = Jsoup.parse(htmlContent)
+                            ^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:57:26: stale bloop error: not found: type Document
+  def extractTables(doc: Document): String = {
+                         ^^^^^^^^
+2024.12.12 19:24:27 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:58:17: stale bloop error: not found: type Elements
+    val tables: Elements = doc.select("table")
+                ^^^^^^^^
+2024.12.12 19:24:28 INFO  compiling root (2 scala sources)
+2024.12.12 19:24:30 INFO  time: compiled root in 1.52s
+Dec 13, 2024 2:26:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1036
+Dec 13, 2024 2:26:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1042
+2024.12.13 14:30:47 INFO  compiling root (2 scala sources)
+2024.12.13 14:30:49 INFO  time: compiled root in 1.8s
+2024.12.13 14:31:54 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:31:54 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:31:54 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:36:34 INFO  compiling root (2 scala sources)
+2024.12.13 14:36:35 INFO  time: compiled root in 1.49s
+2024.12.13 14:39:28 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:39:28 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:39:28 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:39:29 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:39:32 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:40:08 INFO  compiling root (2 scala sources)
+2024.12.13 14:40:08 INFO  time: compiled root in 0.29s
+2024.12.13 14:40:15 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:40:15 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:40:20 WARN  no build target for: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt
+2024.12.13 14:40:20 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:40:20 INFO  skipping build import with status 'Installed'
+2024.12.13 14:40:20 INFO  Disconnecting from Bloop session...
+2024.12.13 14:40:20 INFO  Shut down connection with build server.
+2024.12.13 14:40:20 INFO  Shut down connection with build server.
+2024.12.13 14:40:20 INFO  Attempting to connect to the build server...
+2024.12.13 14:40:20 INFO  Found a Bloop server running
+2024.12.13 14:40:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:40:22 INFO  Attempting to connect to the build server...
+2024.12.13 14:40:22 INFO  Found a Bloop server running
+2024.12.13 14:40:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:40:23 INFO  time: Connected to build server in 2.98s
+2024.12.13 14:40:23 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:40:23 INFO  running doctor check
+2024.12.13 14:40:23 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:40:47 INFO  time: indexed workspace in 23s
+2024.12.13 14:45:24 INFO  compiling root (2 scala sources)
+2024.12.13 14:45:24 INFO  time: compiled root in 0.7s
+Dec 13, 2024 2:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1257
+Dec 13, 2024 2:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1259
+Dec 13, 2024 2:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1266
+Dec 13, 2024 2:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1268
+Dec 13, 2024 2:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1269
+2024.12.13 14:48:48 INFO  compiling root (2 scala sources)
+2024.12.13 14:48:48 INFO  time: compiled root in 0.19s
+2024.12.13 14:50:26 INFO  compiling root (2 scala sources)
+2024.12.13 14:50:26 INFO  time: compiled root in 98ms
+2024.12.13 14:51:48 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:44:3: stale bloop error: Missing closing brace `}` assumed here
+  val response = basicRequest.get(uri"$url").send(HttpURLConnectionBackend())
+  ^
+2024.12.13 14:51:48 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:74:1: stale bloop error: expected class or object definition
+def extractTables(doc: Document): String = {
+^
+2024.12.13 14:51:49 INFO  compiling root (2 scala sources)
+2024.12.13 14:51:50 INFO  time: compiled root in 1.56s
+Dec 13, 2024 2:51:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1676
+2024.12.13 14:52:04 INFO  skipping build import with status 'Installed'
+2024.12.13 14:52:04 INFO  Disconnecting from Bloop session...
+2024.12.13 14:52:04 INFO  Shut down connection with build server.
+2024.12.13 14:52:04 INFO  Cancelling compilation on Bloop server
+2024.12.13 14:52:04 INFO  Shut down connection with build server.
+2024.12.13 14:52:04 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:04 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:52:04 INFO  Found a Bloop server running
+java.nio.file.NoSuchFileException: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.bloop\root\bloop-bsp-clients-classes\classes-Metals-RI1oR7LmS-6BdpWqaqHEow==
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsLinkSupport.getFinalPath(WindowsLinkSupport.java:74)
+	at java.base/sun.nio.fs.WindowsLinkSupport.getRealPath(WindowsLinkSupport.java:241)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:933)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:42)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.dealias(ScalametaCommonEnrichments.scala:342)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:132)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalacOptions.$anonfun$targetroot$8(MetalsEnrichments.scala:1105)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalacOptions.targetroot(MetalsEnrichments.scala:1105)
+	at scala.meta.internal.metals.ScalaTarget.targetroot(ScalaTarget.scala:142)
+	at scala.meta.internal.metals.ScalaTarget.semanticdbFilesPresent(ScalaTarget.scala:89)
+	at scala.meta.internal.metals.doctor.Doctor.extractScalaTargetInfo(Doctor.scala:623)
+	at scala.meta.internal.metals.doctor.Doctor.extractTargetInfo(Doctor.scala:534)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$buildTargetsTable$21(Doctor.scala:395)
+	at scala.collection.StrictOptimizedIterableOps.flatMap(StrictOptimizedIterableOps.scala:118)
+	at scala.collection.StrictOptimizedIterableOps.flatMap$(StrictOptimizedIterableOps.scala:105)
+	at scala.collection.immutable.Vector.flatMap(Vector.scala:116)
+	at scala.meta.internal.metals.doctor.Doctor.buildTargetsTable(Doctor.scala:395)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsTable$5(HeadDoctor.scala:122)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsTable$5$adapted(HeadDoctor.scala:122)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.doctor.HeadDoctor.buildTargetsTable(HeadDoctor.scala:122)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsHtml$2(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsHtml$2$adapted(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.HtmlBuilder.call(HtmlBuilder.scala:75)
+	at scala.meta.internal.metals.doctor.HeadDoctor.buildTargetsHtml(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.doctor.HeadDoctor.executeDoctor(HeadDoctor.scala:80)
+	at scala.meta.internal.metals.doctor.HeadDoctor.executeRefreshDoctor(HeadDoctor.scala:59)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$compilations$3(MetalsLspService.scala:217)
+	at scala.meta.internal.metals.Compilations$$anonfun$2.applyOrElse(Compilations.scala:281)
+	at scala.meta.internal.metals.Compilations$$anonfun$2.applyOrElse(Compilations.scala:279)
+	at scala.concurrent.Future.$anonfun$andThen$1(Future.scala:515)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:475)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.12.13 14:52:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:05 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:05 INFO  Found a Bloop server running
+2024.12.13 14:52:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:06 INFO  time: Connected to build server in 2.49s
+2024.12.13 14:52:06 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:52:06 INFO  running doctor check
+2024.12.13 14:52:06 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:52:15 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:15 INFO  time: compiled root in 0.26s
+2024.12.13 14:52:30 INFO  time: indexed workspace in 23s
+2024.12.13 14:52:30 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:30 INFO  time: compiled root in 0.23s
+2024.12.13 14:52:34 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:34 INFO  time: compiled root in 0.22s
+2024.12.13 14:52:40 INFO  skipping build import with status 'Installed'
+2024.12.13 14:52:40 INFO  Disconnecting from Bloop session...
+2024.12.13 14:52:40 INFO  Cancelling compilation on Bloop server
+2024.12.13 14:52:40 INFO  Shut down connection with build server.
+2024.12.13 14:52:40 INFO  Shut down connection with build server.
+2024.12.13 14:52:40 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:40 INFO  Found a Bloop server running
+2024.12.13 14:52:40 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:52:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:40 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:40 INFO  Found a Bloop server running
+2024.12.13 14:52:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:42 INFO  time: Connected to build server in 1.83s
+2024.12.13 14:52:42 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:52:42 INFO  running doctor check
+2024.12.13 14:52:42 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:52:45 INFO  time: indexed workspace in 2.27s
+2024.12.13 14:52:45 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:45 INFO  time: compiled aws-documentation-scraper-build in 0.14s
+2024.12.13 14:52:45 INFO  time: compiled root in 0.26s
+2024.12.13 14:52:52 INFO  skipping build import with status 'Installed'
+2024.12.13 14:52:52 INFO  Disconnecting from Bloop session...
+2024.12.13 14:52:52 INFO  Cancelling compilation on Bloop server
+2024.12.13 14:52:52 INFO  Shut down connection with build server.
+2024.12.13 14:52:52 INFO  Shut down connection with build server.
+2024.12.13 14:52:52 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:52 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:52:52 INFO  Found a Bloop server running
+java.nio.file.AccessDeniedException: C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.bloop\root\bloop-bsp-clients-classes\test-classes-Metals-LXhg_8dQQY6cmfn7WiU_cg==
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsLinkSupport.getFinalPath(WindowsLinkSupport.java:74)
+	at java.base/sun.nio.fs.WindowsLinkSupport.getRealPath(WindowsLinkSupport.java:241)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:933)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:42)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.dealias(ScalametaCommonEnrichments.scala:342)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:132)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalacOptions.$anonfun$targetroot$8(MetalsEnrichments.scala:1105)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalacOptions.targetroot(MetalsEnrichments.scala:1105)
+	at scala.meta.internal.metals.ScalaTarget.targetroot(ScalaTarget.scala:142)
+	at scala.meta.internal.metals.ScalaTarget.semanticdbFilesPresent(ScalaTarget.scala:89)
+	at scala.meta.internal.metals.doctor.Doctor.extractScalaTargetInfo(Doctor.scala:623)
+	at scala.meta.internal.metals.doctor.Doctor.extractTargetInfo(Doctor.scala:534)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$buildTargetsTable$21(Doctor.scala:395)
+	at scala.collection.StrictOptimizedIterableOps.flatMap(StrictOptimizedIterableOps.scala:118)
+	at scala.collection.StrictOptimizedIterableOps.flatMap$(StrictOptimizedIterableOps.scala:105)
+	at scala.collection.immutable.Vector.flatMap(Vector.scala:116)
+	at scala.meta.internal.metals.doctor.Doctor.buildTargetsTable(Doctor.scala:395)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsTable$5(HeadDoctor.scala:122)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsTable$5$adapted(HeadDoctor.scala:122)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.doctor.HeadDoctor.buildTargetsTable(HeadDoctor.scala:122)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsHtml$2(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.doctor.HeadDoctor.$anonfun$buildTargetsHtml$2$adapted(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.HtmlBuilder.call(HtmlBuilder.scala:75)
+	at scala.meta.internal.metals.doctor.HeadDoctor.buildTargetsHtml(HeadDoctor.scala:100)
+	at scala.meta.internal.metals.doctor.HeadDoctor.executeDoctor(HeadDoctor.scala:80)
+	at scala.meta.internal.metals.doctor.HeadDoctor.executeRefreshDoctor(HeadDoctor.scala:59)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$compilations$3(MetalsLspService.scala:217)
+	at scala.meta.internal.metals.Compilations$$anonfun$2.applyOrElse(Compilations.scala:281)
+	at scala.meta.internal.metals.Compilations$$anonfun$2.applyOrElse(Compilations.scala:279)
+	at scala.concurrent.Future.$anonfun$andThen$1(Future.scala:515)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:475)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.12.13 14:52:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:52 INFO  Attempting to connect to the build server...
+2024.12.13 14:52:52 INFO  Found a Bloop server running
+2024.12.13 14:52:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:52:53 INFO  time: Connected to build server in 1.63s
+2024.12.13 14:52:53 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:52:53 INFO  running doctor check
+2024.12.13 14:52:53 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:52:53 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:53 INFO  time: compiled root in 0.36s
+2024.12.13 14:52:53 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:53 INFO  time: compiled root in 0.21s
+2024.12.13 14:52:55 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:55 INFO  time: compiled root in 0.35s
+2024.12.13 14:52:56 INFO  time: indexed workspace in 3.07s
+2024.12.13 14:52:56 INFO  compiling root (2 scala sources)
+2024.12.13 14:52:57 INFO  time: compiled aws-documentation-scraper-build in 0.12s
+2024.12.13 14:52:56 INFO  time: compiled root in 0.28s
+2024.12.13 14:53:32 INFO  skipping build import with status 'Installed'
+2024.12.13 14:53:32 INFO  Disconnecting from Bloop session...
+2024.12.13 14:53:32 INFO  Cancelling compilation on Bloop server
+2024.12.13 14:53:32 INFO  Shut down connection with build server.
+2024.12.13 14:53:32 INFO  Shut down connection with build server.
+2024.12.13 14:53:32 INFO  Attempting to connect to the build server...
+2024.12.13 14:53:32 INFO  Found a Bloop server running
+2024.12.13 14:53:32 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 14:53:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:53:32 INFO  Attempting to connect to the build server...
+2024.12.13 14:53:32 INFO  Found a Bloop server running
+2024.12.13 14:53:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:53:33 INFO  time: Connected to build server in 1.5s
+2024.12.13 14:53:33 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:53:33 INFO  running doctor check
+2024.12.13 14:53:33 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:53:36 INFO  time: indexed workspace in 2.11s
+2024.12.13 14:53:36 INFO  compiling root (2 scala sources)
+2024.12.13 14:53:36 INFO  time: compiled aws-documentation-scraper-build in 0.11s
+2024.12.13 14:53:36 INFO  time: compiled root in 0.25s
+2024.12.13 14:54:40 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals6906587710251796295\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.13 14:54:48 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.13 14:54:48 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.13 14:54:49 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.13 14:54:49 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.13 14:54:50 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.13 14:54:55 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.13 14:54:55 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.13 14:54:58 INFO  [info] done compiling
+2024.12.13 14:54:58 INFO  [success] Total time: 8 s, completed Dec 13, 2024, 2:54:58 PM
+2024.12.13 14:55:01 INFO  [info] loading settings for project root from build.sbt...
+2024.12.13 14:55:01 INFO  [info] set current project to aws-doc-scraper (in build file:/C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/)
+2024.12.13 14:55:04 INFO  [success] Generated .bloop\root.json
+2024.12.13 14:55:04 INFO  [success] Generated .bloop\root-test.json
+2024.12.13 14:55:04 INFO  [success] Total time: 3 s, completed Dec 13, 2024, 2:55:04 PM
+2024.12.13 14:55:04 INFO  time: ran 'sbt bloopInstall' in 24s
+2024.12.13 14:55:04 INFO  Disconnecting from Bloop session...
+2024.12.13 14:55:04 INFO  Shut down connection with build server.
+2024.12.13 14:55:04 INFO  Shut down connection with build server.
+2024.12.13 14:55:04 INFO  Attempting to connect to the build server...
+2024.12.13 14:55:04 INFO  Found a Bloop server running
+2024.12.13 14:55:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:55:06 INFO  Attempting to connect to the build server...
+2024.12.13 14:55:06 INFO  Found a Bloop server running
+2024.12.13 14:55:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 14:55:06 INFO  time: Connected to build server in 2.19s
+2024.12.13 14:55:06 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 14:55:07 INFO  running doctor check
+2024.12.13 14:55:07 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 14:55:09 INFO  time: indexed workspace in 2.23s
+2024.12.13 14:55:09 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 14:55:09 INFO  compiling root (5 scala sources)
+2024.12.13 14:55:09 INFO  time: compiled root in 0.92s
+2024.12.13 14:55:11 INFO  time: compiled aws-documentation-scraper-build in 2.05s
+2024.12.13 14:55:26 INFO  compiling root (5 scala sources)
+2024.12.13 14:55:26 INFO  time: compiled root in 0.45s
+2024.12.13 14:56:00 INFO  compiling root (5 scala sources)
+2024.12.13 14:56:00 INFO  time: compiled root in 0.37s
+2024.12.13 14:57:36 INFO  compiling root (5 scala sources)
+2024.12.13 14:57:36 INFO  time: compiled root in 0.46s
+2024.12.13 14:58:39 INFO  compiling root (5 scala sources)
+2024.12.13 14:58:39 INFO  time: compiled root in 0.52s
+2024.12.13 15:05:04 INFO  compiling root (5 scala sources)
+2024.12.13 15:05:07 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.13 15:05:07 INFO  time: compiled root in 3.23s
+2024.12.13 15:05:28 INFO  compiling root (1 scala source)
+2024.12.13 15:05:28 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.13 15:05:28 INFO  time: compiled root in 0.88s
+2024.12.13 15:05:28 INFO  compiling root (5 scala sources)
+2024.12.13 15:05:30 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.13 15:05:30 INFO  time: compiled root in 1.57s
+2024.12.13 15:13:12 INFO  compiling root (1 scala source)
+2024.12.13 15:13:14 INFO  time: compiled root in 2.1s
+2024.12.13 15:15:05 INFO  compiling root (1 scala source)
+2024.12.13 15:15:05 INFO  time: compiled root in 0.13s
+2024.12.13 15:15:06 WARN  Could not load snapshot text for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+2024.12.13 15:17:17 WARN  Could not load snapshot text for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+2024.12.13 15:17:21 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:26:49: stale bloop error: not found: value entrypointDocumentationUrl
+      val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 15:17:21 WARN  Could not load snapshot text for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+2024.12.13 15:17:21 WARN  Could not load snapshot text for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+2024.12.13 15:17:22 INFO  compiling root (1 scala source)
+2024.12.13 15:17:22 INFO  time: compiled root in 0.82s
+2024.12.13 15:19:16 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 15:19:22 INFO  time: compiled aws-documentation-scraper-build in 5.81s
+Dec 13, 2024 3:21:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2406
+2024.12.13 15:22:11 INFO  compiling root (1 scala source)
+2024.12.13 15:22:12 INFO  time: compiled root in 1.19s
+2024.12.13 15:24:53 INFO  compiling root (1 scala source)
+2024.12.13 15:24:53 INFO  time: compiled root in 0.98s
+2024.12.13 15:28:36 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.13 15:28:36 INFO  compiling root (1 scala source)
+2024.12.13 15:28:36 INFO  time: compiled root in 0.12s
+2024.12.13 15:29:41 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals8774756635914999417\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.13 15:29:50 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.13 15:29:50 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.13 15:29:51 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.13 15:29:51 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.13 15:29:52 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.13 15:29:59 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.13 15:29:59 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.13 15:30:02 INFO  [info] done compiling
+2024.12.13 15:30:02 INFO  [success] Total time: 10 s, completed Dec 13, 2024, 3:30:02 PM
+2024.12.13 15:30:04 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt:19: error: not found: value scalaTest
+2024.12.13 15:30:04 ERROR       scalaTest % Test,
+2024.12.13 15:30:04 ERROR       ^
+2024.12.13 15:30:04 ERROR sbt.compiler.EvalException: Type error in expression
+2024.12.13 15:30:04 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2024.12.13 15:30:04 INFO  [error] Use 'last' for the full log.
+2024.12.13 15:30:04 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2024.12.13 15:30:04 INFO  time: ran 'sbt bloopInstall' in 22s
+2024.12.13 15:30:04 ERROR sbt command failed: C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals8774756635914999417\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.12.13 15:30:04 INFO  Disconnecting from Bloop session...
+2024.12.13 15:30:04 INFO  Shut down connection with build server.
+2024.12.13 15:30:04 INFO  Shut down connection with build server.
+2024.12.13 15:30:04 INFO  Attempting to connect to the build server...
+2024.12.13 15:30:04 INFO  Found a Bloop server running
+2024.12.13 15:30:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 15:30:05 INFO  Attempting to connect to the build server...
+2024.12.13 15:30:05 INFO  Found a Bloop server running
+2024.12.13 15:30:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 15:30:06 INFO  time: Connected to build server in 2.49s
+2024.12.13 15:30:06 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 15:30:06 INFO  running doctor check
+2024.12.13 15:30:06 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 15:30:09 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7(Indexer.scala:355)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7$adapted(Indexer.scala:350)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:938)
+	at scala.collection.parallel.Task.$anonfun$tryLeaf$1(Tasks.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.control.Breaks$$anon$1.catchBreak(Breaks.scala:97)
+	at scala.collection.parallel.Task.tryLeaf(Tasks.scala:55)
+	at scala.collection.parallel.Task.tryLeaf$(Tasks.scala:49)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:935)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.internal(Tasks.scala:159)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.internal$(Tasks.scala:156)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.internal(Tasks.scala:304)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute(Tasks.scala:149)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute$(Tasks.scala:148)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.compute(Tasks.scala:304)
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+2024.12.13 15:30:23 INFO  time: indexed workspace in 16s
+2024.12.13 15:33:13 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 15:33:13 INFO  compiling root (1 scala source)
+2024.12.13 15:33:13 INFO  time: compiled root in 0.14s
+2024.12.13 15:33:15 INFO  time: compiled aws-documentation-scraper-build in 1.54s
+2024.12.13 15:33:16 INFO  compiling root (1 scala source)
+2024.12.13 15:33:16 INFO  time: compiled root in 0.16s
+2024.12.13 15:33:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:16: stale bloop error: . expected
+import requests
+               ^
+2024.12.13 15:33:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:51:22: stale bloop error: ')' expected but eof found.
+        ujson.read(r
+                     ^
+2024.12.13 15:33:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:16: stale bloop error: . expected
+import requests
+               ^
+2024.12.13 15:33:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:51:22: stale bloop error: ')' expected but eof found.
+        ujson.read(r
+                     ^
+2024.12.13 15:33:20 INFO  compiling root (1 scala source)
+2024.12.13 15:33:20 INFO  time: compiled root in 0.87s
+2024.12.13 15:35:14 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 15:35:15 INFO  time: compiled aws-documentation-scraper-build in 1.38s
+2024.12.13 15:35:19 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:512)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.13 15:38:46 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals13184812686171830119\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.13 15:38:54 INFO  sbt thinks that server is already booting because of this exception:
+2024.12.13 15:38:54 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load6572844326089377367_lock, error 5
+2024.12.13 15:38:54 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2024.12.13 15:38:54 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2024.12.13 15:38:54 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2024.12.13 15:38:54 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2024.12.13 15:38:54 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2024.12.13 15:38:54 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+2024.12.13 15:38:54 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2024.12.13 15:38:54 ERROR 	at sbt.xMain.run(Main.scala:48)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2024.12.13 15:38:54 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2024.12.13 15:38:54 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load6572844326089377367_lock, error 5
+2024.12.13 15:38:54 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2024.12.13 15:38:54 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2024.12.13 15:38:54 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2024.12.13 15:38:54 ERROR 	... 23 more
+2024.12.13 15:38:54 INFO  time: ran 'sbt bloopInstall' in 8.43s
+2024.12.13 15:38:54 ERROR sbt command failed: C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals13184812686171830119\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.12.13 15:38:54 INFO  Disconnecting from Bloop session...
+2024.12.13 15:38:54 INFO  Shut down connection with build server.
+2024.12.13 15:38:54 INFO  Shut down connection with build server.
+2024.12.13 15:38:54 INFO  Attempting to connect to the build server...
+2024.12.13 15:38:54 INFO  Found a Bloop server running
+2024.12.13 15:38:55 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 15:38:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 15:38:55 INFO  Attempting to connect to the build server...
+2024.12.13 15:38:55 INFO  Found a Bloop server running
+2024.12.13 15:38:56 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 15:38:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 15:38:56 INFO  time: Connected to build server in 2.2s
+2024.12.13 15:38:56 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 15:38:56 INFO  running doctor check
+2024.12.13 15:38:56 INFO  java targets: aws-documentation-scraper-build, root-test, root
+Dec 13, 2024 3:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2772
+2024.12.13 15:39:02 INFO  skipping build import with status 'Dismissed'
+2024.12.13 15:39:02 INFO  time: code lens generation in 5.75s
+2024.12.13 15:39:16 INFO  skipping build import with status 'Dismissed'
+2024.12.13 15:39:21 INFO  time: indexed workspace in 24s
+Dec 13, 2024 3:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2878
+2024.12.13 15:51:05 INFO  compiling root (1 scala source)
+2024.12.13 15:51:06 INFO  time: compiled root in 1.72s
+2024.12.13 15:51:20 INFO  compiling root (1 scala source)
+2024.12.13 15:51:22 INFO  time: compiled root in 2.06s
+2024.12.13 15:53:59 INFO  compiling root (1 scala source)
+2024.12.13 15:53:59 INFO  time: compiled root in 0.1s
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:76:3: stale bloop error: Missing closing brace `}` assumed here
+  }
+  ^
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:79:1: stale bloop error: expected class or object definition
+def extractTables(doc: Document): String = {
+^
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:91:1: stale bloop error: expected class or object definition
+def extractJson(url: String): ujson.Value = {
+^
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:76:3: stale bloop error: Missing closing brace `}` assumed here
+  }
+  ^
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:79:1: stale bloop error: expected class or object definition
+def extractTables(doc: Document): String = {
+^
+2024.12.13 15:55:29 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:91:1: stale bloop error: expected class or object definition
+def extractJson(url: String): ujson.Value = {
+^
+2024.12.13 15:55:29 INFO  compiling root (1 scala source)
+2024.12.13 15:55:29 INFO  time: compiled root in 0.11s
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:76:3: stale bloop error: Missing closing brace `}` assumed here
+  }
+  ^
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:79:1: stale bloop error: expected class or object definition
+def extractTables(doc: Document): String = {
+^
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:91:1: stale bloop error: expected class or object definition
+def extractJson(url: String): ujson.Value = {
+^
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:76:3: stale bloop error: Missing closing brace `}` assumed here
+  }
+  ^
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:79:1: stale bloop error: expected class or object definition
+def extractTables(doc: Document): String = {
+^
+2024.12.13 15:57:04 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:91:1: stale bloop error: expected class or object definition
+def extractJson(url: String): ujson.Value = {
+^
+2024.12.13 15:57:04 INFO  compiling root (1 scala source)
+2024.12.13 15:57:06 INFO  time: compiled root in 1.5s
+2024.12.13 15:59:20 INFO  compiling root (1 scala source)
+2024.12.13 15:59:21 INFO  time: compiled root in 1.28s
+2024.12.13 16:01:45 INFO  compiling root (1 scala source)
+2024.12.13 16:01:46 INFO  time: compiled root in 1.06s
+2024.12.13 16:04:42 INFO  running 'C:\Users\petermayer\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PETERM~1\AppData\Local\Temp\metals10056180371747564836\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.13 16:04:50 INFO  [info] welcome to sbt 1.10.6 (Eclipse Adoptium Java 17.0.13)
+2024.12.13 16:04:50 INFO  [info] loading settings for project aws-documentation-scraper-build-build from metals.sbt...
+2024.12.13 16:04:52 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\project
+2024.12.13 16:04:53 INFO  [info] loading settings for project aws-documentation-scraper-build from metals.sbt...
+2024.12.13 16:04:53 INFO  [info] loading project definition from C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project
+2024.12.13 16:05:00 INFO  [success] Generated .bloop\aws-documentation-scraper-build.json
+2024.12.13 16:05:00 INFO  [info] compiling 1 Scala source to C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\target\scala-2.12\sbt-1.0\classes ...
+2024.12.13 16:05:03 INFO  [info] done compiling
+2024.12.13 16:05:03 INFO  [success] Total time: 10 s, completed Dec 13, 2024, 4:05:03 PM
+2024.12.13 16:05:06 INFO  [info] loading settings for project root from build.sbt...
+2024.12.13 16:05:06 INFO  [info] set current project to aws-doc-scraper (in build file:/C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/)
+2024.12.13 16:05:10 INFO  [success] Generated .bloop\root-test.json
+2024.12.13 16:05:10 INFO  [success] Generated .bloop\root.json
+2024.12.13 16:05:10 INFO  [success] Total time: 4 s, completed Dec 13, 2024, 4:05:10 PM
+2024.12.13 16:05:10 INFO  time: ran 'sbt bloopInstall' in 28s
+2024.12.13 16:05:10 INFO  Disconnecting from Bloop session...
+2024.12.13 16:05:10 INFO  Shut down connection with build server.
+2024.12.13 16:05:10 INFO  Shut down connection with build server.
+2024.12.13 16:05:10 INFO  Attempting to connect to the build server...
+2024.12.13 16:05:10 INFO  Found a Bloop server running
+2024.12.13 16:05:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:05:12 INFO  Attempting to connect to the build server...
+2024.12.13 16:05:12 INFO  Found a Bloop server running
+2024.12.13 16:05:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:05:12 INFO  time: Connected to build server in 2.23s
+2024.12.13 16:05:12 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 16:05:12 INFO  running doctor check
+2024.12.13 16:05:12 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 16:05:27 INFO  time: indexed workspace in 14s
+2024.12.13 16:05:34 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 16:05:34 INFO  compiling root (5 scala sources)
+2024.12.13 16:05:35 INFO  time: compiled aws-documentation-scraper-build in 1.53s
+2024.12.13 16:05:36 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.13 16:05:36 INFO  time: compiled root in 2.97s
+2024.12.13 16:09:15 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsDocumentation.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptToStatSep(ScalaToplevelMtags.scala:995)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:354)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.13 16:09:16 INFO  compiling root (1 scala source)
+2024.12.13 16:09:16 INFO  time: compiled root in 0.19s
+2024.12.13 16:09:17 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:17 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:19 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:55 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:09:55 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:1:1: stale bloop error: expected class or object definition
+io.scalastic.aws import scala.util.{Failure, Success} object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App { val rootDocumentationUrl: String = "https://docs.aws.amazon.com" val entrypointDocumentationUrl: String = "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/" val documentationPath: String = "./data/" val rootDocumentationFilename: String = "root-documentation" val fullDocumentationFilename: String = "full-documentation" val resultsFilename: String = "results" // 1. Get AWS root documentation entries val rootDocumentation: ujson.Value = deserialize(rootDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) val doc = extractDocumentationWithContent(entrypointDocumentationUrl) // Updated method name serialize(rootDocumentationFilename, doc) doc } } // 2. Complete documentation with href content from root documentation val fullDocumentation: ujson.Value = deserialize(fullDocumentationFilename, classOf[ujson.Value]) match { case Success(s: ujson.Value) => s case Failure(f) => { println(f) completeRootDocumentation(rootDocumentation) serialize(fullDocumentationFilename, rootDocumentation) rootDocumentation } } // 3. Save extracted data to a new results JSON file val results: ujson.Value = fullDocumentation println(results) write(resultsFilename, results) }
+^
+2024.12.13 16:10:36 INFO  time: compiled root in 7ms
+2024.12.13 16:10:52 INFO  compiling root (1 scala source)
+2024.12.13 16:10:52 INFO  time: compiled root in 0.33s
+2024.12.13 16:11:01 INFO  compiling root (2 scala sources)
+2024.12.13 16:11:01 INFO  time: compiled root in 0.24s
+2024.12.13 16:11:28 INFO  compiling root (2 scala sources)
+2024.12.13 16:11:28 INFO  time: compiled root in 0.24s
+2024.12.13 16:11:39 INFO  compiling root (5 scala sources)
+2024.12.13 16:11:39 INFO  time: compiled root in 0.13s
+Dec 13, 2024 4:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3692
+2024.12.13 16:12:01 INFO  compiling root (5 scala sources)
+2024.12.13 16:12:01 INFO  time: compiled root in 0.14s
+2024.12.13 16:12:11 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Serializer.scala:5:1: stale bloop error: AwsDocumentation is already defined as object AwsDocumentation
+> object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
+> 
+>   val rootDocumentationUrl: String = "https://docs.aws.amazon.com"
+>   val entryPoints: Seq[String] = Seq(
+>     "https://docs.aws.amazon.com/ec2/?nc2=h_ql_doc_ec2/",
+>     "https://docs.aws.amazon.com/s3/",
+>     "https://docs.aws.amazon.com/lambda/"
+>     // Add more entry points as needed
+>   )
+> 
+>   val documentationPath: String = "./data/"
+>   val rootDocumentationFilename: String = "root-documentation"
+>   val fullDocumentationFilename: String = "full-documentation"
+>   val resultsFilename: String = "results"
+> 
+>   // Get AWS root documentation entries from all entry points
+>   val rootDocumentations: Seq[ujson.Value] = entryPoints.map { url =>
+>     deserialize(rootDocumentationFilename + url.hashCode, classOf[ujson.Value]) match {
+>       case Success(s: ujson.Value) => s
+>       case Failure(f) => {
+>         println(f)
+>         val doc = extractDocumentationWithContent(url)
+>         serialize(rootDocumentationFilename + url.hashCode, doc)
+>         doc
+>       }
+>     }
+>   }
+> 
+>   // Combine the results from all entry points and process them
+>   val combinedDocumentation: ujson.Value = ujson.Arr(rootDocumentations: _*)
+>   val fullDocumentation: ujson.Value = completeRootDocumentation(combinedDocumentation, 3)
+> 
+>   serialize(fullDocumentationFilename, fullDocumentation)
+>   println(fullDocumentation)
+>   write(resultsFilename, fullDocumentation)
+> }
+2024.12.13 16:12:12 INFO  compiling root (5 scala sources)
+2024.12.13 16:12:12 INFO  time: compiled root in 0.37s
+2024.12.13 16:12:26 INFO  compiling root (5 scala sources)
+2024.12.13 16:12:26 INFO  time: compiled root in 0.45s
+2024.12.13 16:13:08 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:35:40: stale bloop error: type mismatch;
+ found   : sttp.model.Uri
+ required: String
+    val page: Page = PageFactory.build(uri"$pageUrl")
+                                       ^^^^^^^^^^^^^
+2024.12.13 16:13:09 INFO  compiling root (5 scala sources)
+2024.12.13 16:13:09 INFO  time: compiled root in 0.34s
+2024.12.13 16:14:22 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsWebScraper.scala:35:40: stale bloop error: type mismatch;
+ found   : sttp.model.Uri
+ required: String
+    val page: Page = PageFactory.build(uri"$pageUrl")
+                                       ^^^^^^^^^^^^^
+2024.12.13 16:14:23 INFO  compiling root (5 scala sources)
+2024.12.13 16:14:23 INFO  time: compiled root in 0.35s
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:54:7: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+      testPage.jsonContent.toString match {
+      ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:55:114: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri, testPage.jsonContent)
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:56:85: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri, testPage.jsonContent)
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:57:95: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri, testPage.jsonContent)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:58:40: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case _ => new UnknownPage(uri, testPage.jsonContent)
+                                       ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:47: stale bloop error: not found: value basicRequest
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:64: stale bloop error: value uri is not a member of StringContext
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                               ^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:80: stale bloop error: not found: value HttpURLConnectionBackend
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^
+Dec 13, 2024 4:14:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:54:7: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+      testPage.jsonContent.toString match {
+      ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:55:114: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri, testPage.jsonContent)
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:56:85: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri, testPage.jsonContent)
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:57:95: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri, testPage.jsonContent)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:58:40: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case _ => new UnknownPage(uri, testPage.jsonContent)
+                                       ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:47: stale bloop error: not found: value basicRequest
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:64: stale bloop error: value uri is not a member of StringContext
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                               ^^^^^^^^^
+2024.12.13 16:14:32 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:80: stale bloop error: not found: value HttpURLConnectionBackend
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:54:7: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+      testPage.jsonContent.toString match {
+      ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:55:114: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri, testPage.jsonContent)
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:56:85: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri, testPage.jsonContent)
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:57:95: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri, testPage.jsonContent)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:58:40: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case _ => new UnknownPage(uri, testPage.jsonContent)
+                                       ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:47: stale bloop error: not found: value basicRequest
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:64: stale bloop error: value uri is not a member of StringContext
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                               ^^^^^^^^^
+2024.12.13 16:14:33 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:63:80: stale bloop error: not found: value HttpURLConnectionBackend
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^
+Dec 13, 2024 4:14:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\.reports\metals-full\2024-12-13\r_compiler-error_(root)_16-14-33-137.md
+Dec 13, 2024 4:14:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3961
+2024.12.13 16:14:33 INFO  compiling root (5 scala sources)
+2024.12.13 16:14:33 INFO  time: compiled root in 0.31s
+2024.12.13 16:15:42 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:68: stale bloop error: not found: type IO
+object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
+                                                                   ^
+2024.12.13 16:15:42 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:39:3: stale bloop error: not found: value write
+  write(resultsFilename, fullDocumentation)
+  ^^^^^
+2024.12.13 16:15:44 INFO  compiling root (5 scala sources)
+2024.12.13 16:15:44 INFO  time: compiled root in 0.32s
+2024.12.13 16:15:50 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 16:15:54 INFO  skipping build import with status 'Installed'
+2024.12.13 16:15:54 INFO  Cancelling compilation on Bloop server
+2024.12.13 16:15:54 INFO  Disconnecting from Bloop session...
+2024.12.13 16:15:54 INFO  Shut down connection with build server.
+2024.12.13 16:15:54 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 16:15:55 INFO  time: compiled aws-documentation-scraper-build in 4.6s
+2024.12.13 16:15:55 INFO  Shut down connection with build server.
+2024.12.13 16:15:55 INFO  Attempting to connect to the build server...
+2024.12.13 16:15:55 INFO  Found a Bloop server running
+2024.12.13 16:15:54 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 16:15:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:15:56 INFO  Attempting to connect to the build server...
+2024.12.13 16:15:56 INFO  Found a Bloop server running
+2024.12.13 16:15:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:15:56 INFO  time: Connected to build server in 1.71s
+2024.12.13 16:15:56 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 16:15:56 INFO  running doctor check
+2024.12.13 16:15:56 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 16:16:16 INFO  time: indexed workspace in 19s
+2024.12.13 16:17:09 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.13 16:17:09 INFO  compiling root (5 scala sources)
+2024.12.13 16:17:09 INFO  time: compiled root in 0.53s
+2024.12.13 16:17:10 INFO  time: compiled aws-documentation-scraper-build in 1.12s
+2024.12.13 16:17:35 INFO  compiling root (5 scala sources)
+2024.12.13 16:17:35 INFO  time: compiled root in 0.45s
+2024.12.13 16:17:38 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:68: stale bloop error: not found: type IO
+object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
+                                                                   ^
+2024.12.13 16:17:38 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:39:3: stale bloop error: not found: value write
+  write(resultsFilename, fullDocumentation)
+  ^^^^^
+2024.12.13 16:17:38 INFO  compiling root (5 scala sources)
+2024.12.13 16:17:38 INFO  time: compiled root in 0.34s
+2024.12.13 16:17:50 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:68: stale bloop error: not found: type IO
+object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
+                                                                   ^
+2024.12.13 16:17:50 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:39:3: stale bloop error: not found: value write
+  write(resultsFilename, fullDocumentation)
+  ^^^^^
+2024.12.13 16:17:51 INFO  compiling root (5 scala sources)
+2024.12.13 16:17:51 INFO  time: compiled root in 0.33s
+2024.12.13 16:17:58 INFO  compiling root (5 scala sources)
+2024.12.13 16:17:58 INFO  time: compiled root in 0.33s
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:56:7: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+      testPage.jsonContent.toString match {
+      ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:57:114: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri, testPage.jsonContent)
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:58:85: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri, testPage.jsonContent)
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:59:95: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri, testPage.jsonContent)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:60:40: stale bloop error: value jsonContent is not a member of io.scalastic.aws.Model.PageFactory.TestPage
+        case _ => new UnknownPage(uri, testPage.jsonContent)
+                                       ^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:18:09 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:65:47: stale bloop error: type mismatch;
+ found   : java.io.Serializable
+ required: ujson.Readable
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dec 13, 2024 4:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4156
+2024.12.13 16:18:09 INFO  compiling root (5 scala sources)
+2024.12.13 16:18:09 INFO  time: compiled root in 0.34s
+2024.12.13 16:18:18 ERROR C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\Serializer.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:481)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.13 16:18:19 INFO  compiling root (5 scala sources)
+2024.12.13 16:18:19 INFO  time: compiled root in 0.11s
+2024.12.13 16:18:52 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Serializer.scala:14:11: stale bloop error: '}' expected but eof found.
+      file
+          ^
+2024.12.13 16:18:52 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Serializer.scala:14:11: stale bloop error: '}' expected but eof found.
+      file
+          ^
+2024.12.13 16:18:52 INFO  compiling root (5 scala sources)
+2024.12.13 16:18:52 INFO  time: compiled root in 0.5s
+2024.12.13 16:20:34 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:5:68: stale bloop error: not found: type IO
+object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
+                                                                   ^
+2024.12.13 16:20:34 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/AwsDocumentation.scala:39:3: stale bloop error: not found: value write
+  write(resultsFilename, fullDocumentation)
+  ^^^^^
+2024.12.13 16:20:34 INFO  compiling root (5 scala sources)
+2024.12.13 16:20:34 INFO  time: compiled root in 0.4s
+2024.12.13 16:20:48 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:65:47: stale bloop error: type mismatch;
+ found   : java.io.Serializable
+ required: ujson.Readable
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:20:49 INFO  compiling root (5 scala sources)
+2024.12.13 16:20:49 INFO  time: compiled root in 0.29s
+2024.12.13 16:20:56 INFO  skipping build import with status 'Installed'
+2024.12.13 16:20:56 INFO  Disconnecting from Bloop session...
+2024.12.13 16:20:56 INFO  Shut down connection with build server.
+2024.12.13 16:20:56 INFO  Cancelling compilation on Bloop server
+2024.12.13 16:20:56 INFO  Shut down connection with build server.
+2024.12.13 16:20:56 INFO  Attempting to connect to the build server...
+2024.12.13 16:20:56 INFO  Scala test classes not supported by server
+2024.12.13 16:20:56 INFO  Found a Bloop server running
+2024.12.13 16:20:57 INFO  no build target found for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.13 16:20:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:20:57 INFO  Attempting to connect to the build server...
+2024.12.13 16:20:57 INFO  Found a Bloop server running
+2024.12.13 16:20:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.13 16:20:58 INFO  time: Connected to build server in 1.75s
+2024.12.13 16:20:58 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.13 16:20:58 INFO  running doctor check
+2024.12.13 16:20:58 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.13 16:21:00 INFO  time: indexed workspace in 2.17s
+2024.12.13 16:21:00 INFO  compiling root (5 scala sources)
+2024.12.13 16:21:00 INFO  time: compiled root in 0.31s
+2024.12.13 16:24:47 INFO  compiling root (5 scala sources)
+2024.12.13 16:24:50 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.12.13 16:24:50 INFO  time: compiled root in 3.07s
+2024.12.13 16:34:14 INFO  compiling root (1 scala source)
+2024.12.13 16:34:14 INFO  time: compiled root in 0.71s
+2024.12.13 16:42:30 INFO  compiling root (1 scala source)
+2024.12.13 16:42:31 INFO  time: compiled root in 1.47s
+2024.12.13 16:42:47 INFO  compiling root (2 scala sources)
+2024.12.13 16:42:47 INFO  time: compiled root in 0.3s
+2024.12.13 16:42:47 WARN  Could not load snapshot text for C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\src\main\scala\io\scalastic\aws\AwsWebScraper.scala
+2024.12.13 16:42:54 INFO  compiling root (2 scala sources)
+2024.12.13 16:42:54 INFO  time: compiled root in 0.32s
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:18:7: stale bloop error: not found: value Try
+      Try {
+      ^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:21:14: stale bloop error: not found: value Success
+        case Success(s) => return extractField(s, fieldsList.tail)
+             ^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:22:14: stale bloop error: not found: value Failure
+        case Failure(f) => return "Empty " + fieldsList.head
+             ^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:37:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:50:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:57:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:70:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:77:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:89:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:96:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:106:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("unknown-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:113:109: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri)
+                                                                                                            ^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:114:80: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri)
+                                                                               ^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:115:90: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri)
+                                                                                         ^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:116:35: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case _ => new UnknownPage(uri)
+                                  ^^^
+2024.12.13 16:44:00 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:121:47: stale bloop error: type mismatch;
+ found   : java.io.Serializable
+ required: ujson.Readable
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:44:00 INFO  compiling root (2 scala sources)
+2024.12.13 16:44:00 INFO  time: compiled root in 0.33s
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:39:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:52:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:59:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:72:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:79:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:91:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:98:17: stale bloop error: not found: value fetchFullContent
+      val doc = fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:108:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("unknown-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:115:109: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri)
+                                                                                                            ^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:116:80: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri)
+                                                                               ^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:117:90: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri)
+                                                                                         ^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:118:35: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case _ => new UnknownPage(uri)
+                                  ^^^
+2024.12.13 16:44:53 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:123:47: stale bloop error: type mismatch;
+ found   : java.io.Serializable
+ required: ujson.Readable
+      override def toJson: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:44:53 INFO  compiling root (2 scala sources)
+2024.12.13 16:44:53 INFO  time: compiled root in 0.36s
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:39:17: stale bloop error: not found: value AwsWebScraper
+      val doc = AwsWebScraper.fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:52:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:59:17: stale bloop error: not found: value AwsWebScraper
+      val doc = AwsWebScraper.fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:72:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:79:17: stale bloop error: not found: value AwsWebScraper
+      val doc = AwsWebScraper.fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:91:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("main-landing-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:98:17: stale bloop error: not found: value AwsWebScraper
+      val doc = AwsWebScraper.fetchFullContent(uri.toString)
+                ^^^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:108:34: stale bloop error: not found: value jsonContent
+    override def filter: Value = jsonContent("unknown-page")
+                                 ^^^^^^^^^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:115:109: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\":{\"general_resources\"") => new MainPage(uri)
+                                                                                                            ^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:116:80: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"landing-page\"") => new SubPage(uri)
+                                                                               ^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:117:90: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case content if content.startsWith("{\"main-landing-page\"") => new ResourcePage(uri)
+                                                                                         ^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:118:35: stale bloop error: type mismatch;
+ found   : String
+ required: sttp.model.Uri
+        case _ => new UnknownPage(uri)
+                                  ^^^
+2024.12.13 16:45:37 INFO  file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/Model.scala:123:43: stale bloop error: type mismatch;
+ found   : java.io.Serializable
+ required: ujson.Readable
+      val jsonContent: Value = ujson.read(basicRequest.get(uri"$uri").send(HttpURLConnectionBackend()).body.getOrElse(""))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.12.13 16:45:39 INFO  compiling root (2 scala sources)
+2024.12.13 16:45:39 INFO  time: compiled root in 0.33s
+2024.12.14 14:58:55 INFO  time: code lens generation in 1.6s
+2024.12.14 15:06:30 INFO  compiling root (1 scala source)
+2024.12.14 15:06:33 INFO  time: compiled root in 3.23s
+2024.12.14 15:26:24 INFO  compiling root (1 scala source)
+2024.12.14 15:26:26 INFO  time: compiled root in 2.12s
+2024.12.14 15:26:31 INFO  compiling root (1 scala source)
+2024.12.14 15:26:31 INFO  time: compiled root in 0.14s
+2024.12.14 15:28:20 INFO  compiling root (1 scala source)
+2024.12.14 15:28:20 WARN  Invalid text document uri received from build server: file:///C:/Users/petermayer/OneDrive%20-%20Microsoft/Documents/Desktop/scraping_projects/aws_scraping/aws_scraper_github/aws-documentation-scraper/src/main/scala/io/scalastic/aws/test_scala.scala
+2024.12.14 15:28:20 INFO  time: compiled root in 0.26s
+2024.12.14 15:28:20 INFO  compiling root (1 scala source)
+2024.12.14 15:28:20 INFO  time: compiled root in 0.21s
+2024.12.14 15:28:29 INFO  compiling root (1 scala source)
+2024.12.14 15:28:31 INFO  time: compiled root in 1.54s
+2024.12.14 15:39:41 INFO  Shutting down server
+2024.12.14 15:39:41 INFO  shutting down Metals
+2024.12.14 15:39:41 INFO  Shut down connection with build server.
+2024.12.14 15:39:41 INFO  Shut down connection with build server.
+2024.12.14 15:39:41 INFO  Exiting server
+2024.12.14 15:42:49 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper' for client Visual Studio Code 1.96.0.
+2024.12.14 15:42:51 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 15:42:52 INFO  Attempting to connect to the build server...
+2024.12.14 15:42:52 INFO  Found a Bloop server running
+2024.12.14 15:42:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.14 15:42:53 INFO  Attempting to connect to the build server...
+2024.12.14 15:42:53 INFO  Found a Bloop server running
+2024.12.14 15:42:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\petermayer\OneDrive - Microsoft\Documents\Desktop\scraping_projects\aws_scraping\aws_scraper_github\aws-documentation-scraper\project\.metals\bsp.trace.json or C:\Users\petermayer\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.14 15:42:54 INFO  time: Connected to build server in 2.85s
+2024.12.14 15:42:54 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.14 15:42:55 INFO  time: Imported build in 0.17s
+2024.12.14 15:42:55 INFO  running doctor check
+2024.12.14 15:42:55 INFO  java targets: aws-documentation-scraper-build, root-test, root
+2024.12.14 15:42:55 WARN  2.12.13 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.12.14 15:42:55 WARN  2.13.6 is no longer supported in the current Metals versions, using the last known supported version 1.3.0
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Dec 14, 2024 3:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Dec 14, 2024 3:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Dec 14, 2024 3:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.12.14 15:43:08 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.14 15:43:25 INFO  time: indexed workspace in 29s
+2024.12.14 15:43:25 INFO  compiling aws-documentation-scraper-build (1 scala source)
+2024.12.14 15:43:26 INFO  time: code lens generation in 1.36s
+2024.12.14 15:43:27 INFO  time: compiled aws-documentation-scraper-build in 2.34s
+2024.12.14 15:46:17 INFO  Shutting down server
+2024.12.14 15:46:17 INFO  shutting down Metals
+2024.12.14 15:46:18 INFO  Shut down connection with build server.
+2024.12.14 15:46:18 INFO  Shut down connection with build server.
+2024.12.14 15:46:17 INFO  Exiting server

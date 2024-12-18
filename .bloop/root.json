@@ -1,0 +1,424 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper",
+        "workspaceDir": "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper",
+        "sources": [
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\src\\main\\scala",
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\src\\main\\scala-2.13",
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\src\\main\\scala-2",
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\src\\main\\java",
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client3\\core_2.13\\3.3.5\\core_2.13-3.3.5.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\1.3.15\\upickle_2.13-1.3.15.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json\\json\\20210307\\json-20210307.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.14.3\\jsoup-1.14.3.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.4.7\\core_2.13-1.4.7.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.2.5\\core_2.13-1.2.5.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.2.5\\ws_2.13-1.2.5.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\1.3.15\\ujson_2.13-1.3.15.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\1.3.15\\upack_2.13-1.3.15.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\1.3.15\\upickle-implicits_2.13-1.3.15.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\1.3.15\\upickle-core_2.13-1.3.15.jar",
+            "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\0.6.10\\geny_2.13-0.6.10.jar"
+        ],
+        "out": "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\.bloop\\root",
+        "classesDir": "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\.bloop\\root\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\src\\main\\resources",
+            "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.6",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.6\\scala-compiler-2.13.6.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.19.0\\jline-3.19.0.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17.0.13%252B11\\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\\jdk-17.0.13+11",
+                "options": [
+                    "-Duser.dir=C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\adoptium\\temurin17-binaries\\releases\\download\\jdk-17.0.13%252B11\\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\\jdk-17.0.13+11",
+                "options": [
+                    "-Duser.dir=C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper"
+                ]
+            },
+            "classpath": [
+                "C:\\Users\\petermayer\\OneDrive - Microsoft\\Documents\\Desktop\\scraping_projects\\aws_scraping\\aws_scraper_github\\aws-documentation-scraper\\.bloop\\root\\scala-2.13\\classes",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client3\\core_2.13\\3.3.5\\core_2.13-3.3.5.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\1.3.15\\upickle_2.13-1.3.15.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json\\json\\20210307\\json-20210307.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.14.3\\jsoup-1.14.3.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.4.7\\core_2.13-1.4.7.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.2.5\\core_2.13-1.2.5.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.2.5\\ws_2.13-1.2.5.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\1.3.15\\ujson_2.13-1.3.15.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\1.3.15\\upack_2.13-1.3.15.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\1.3.15\\upickle-implicits_2.13-1.3.15.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\1.3.15\\upickle-core_2.13-1.3.15.jar",
+                "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\0.6.10\\geny_2.13-0.6.10.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client3",
+                    "name": "core_2.13",
+                    "version": "3.3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client3\\core_2.13\\3.3.5\\core_2.13-3.3.5.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client3\\core_2.13\\3.3.5\\core_2.13-3.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.13",
+                    "version": "1.3.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\1.3.15\\upickle_2.13-1.3.15.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\1.3.15\\upickle_2.13-1.3.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json",
+                    "name": "json",
+                    "version": "20210307",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json\\json\\20210307\\json-20210307.jar"
+                        },
+                        {
+                            "name": "json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json\\json\\20210307\\json-20210307-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jsoup",
+                    "name": "jsoup",
+                    "version": "1.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsoup",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.14.3\\jsoup-1.14.3.jar"
+                        },
+                        {
+                            "name": "jsoup",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jsoup\\jsoup\\1.14.3\\jsoup-1.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.model",
+                    "name": "core_2.13",
+                    "version": "1.4.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.4.7\\core_2.13-1.4.7.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.4.7\\core_2.13-1.4.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "core_2.13",
+                    "version": "1.2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.2.5\\core_2.13-1.2.5.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.2.5\\core_2.13-1.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "ws_2.13",
+                    "version": "1.2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ws_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.2.5\\ws_2.13-1.2.5.jar"
+                        },
+                        {
+                            "name": "ws_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.2.5\\ws_2.13-1.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "1.3.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\1.3.15\\ujson_2.13-1.3.15.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\1.3.15\\ujson_2.13-1.3.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.13",
+                    "version": "1.3.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\1.3.15\\upack_2.13-1.3.15.jar"
+                        },
+                        {
+                            "name": "upack_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\1.3.15\\upack_2.13-1.3.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.13",
+                    "version": "1.3.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\1.3.15\\upickle-implicits_2.13-1.3.15.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\1.3.15\\upickle-implicits_2.13-1.3.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "1.3.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\1.3.15\\upickle-core_2.13-1.3.15.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\1.3.15\\upickle-core_2.13-1.3.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\0.6.10\\geny_2.13-0.6.10.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\0.6.10\\geny_2.13-0.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\petermayer\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
